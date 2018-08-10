@@ -233,7 +233,6 @@ namespace КрестикиНолики
 
             #region No Winners
 
-            bool mNoWinners = false;
             //check for no winner and full board
             if (!mResults.Any(res => res == MarkType.Free))
             {
@@ -246,20 +245,11 @@ namespace КрестикиНолики
                     button.Background = Brushes.Orange;
                 });
 
-                mNoWinners = true;
             }
 
             #endregion
 
-           //Some troubles have been fixed 
             
-            /*
-            /* if(mGameEnded && !mNoWinners)
-            {
-                System.Windows.MessageBox.Show($"The Winner is "); 
-            }
-            */
-            */
 
         }
     }
