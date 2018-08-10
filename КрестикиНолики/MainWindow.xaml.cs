@@ -251,7 +251,15 @@ namespace КрестикиНолики
 
             #endregion
 
-
+           //Some troubles have been fixed 
+            
+            /*
+            /* if(mGameEnded && !mNoWinners)
+            {
+                System.Windows.MessageBox.Show($"The Winner is "); 
+            }
+            */
+            */
 
         }
     }
