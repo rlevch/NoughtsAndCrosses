@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:КрестикиНолики"
         mc:Ignorable="d"
         ResizeMode="NoResize"
-        Title="Крестики - нолики" Height="500" Width="500">
+        Title="Noughts and Crosses" Height="500" Width="500">
 
     <Window.Resources>
         <Style TargetType="Button">
